@@ -448,7 +448,7 @@ public final class Api {
         return  me.Nikleo.dwj.map.proto.Api.internal_static_piratemap_Plakat_fieldAccessorTable;
       }
       
-      // Construct using com.boombuler.piraten.map.proto.Api.Plakat.newBuilder()
+      // Construct using me.Nikleo.dwj.map.proto.Api.Plakat.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1189,7 +1189,7 @@ public final class Api {
         return  me.Nikleo.dwj.map.proto.Api.internal_static_piratemap_BoundingBox_fieldAccessorTable;
       }
       
-      // Construct using com.boombuler.piraten.map.proto.Api.BoundingBox.newBuilder()
+      // Construct using me.Nikleo.dwj.map.proto.Api.BoundingBox.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1702,7 +1702,7 @@ public final class Api {
         return  me.Nikleo.dwj.map.proto.Api.internal_static_piratemap_ViewRequest_fieldAccessorTable;
       }
       
-      // Construct using com.boombuler.piraten.map.proto.Api.ViewRequest.newBuilder()
+      // Construct using me.Nikleo.dwj.map.proto.Api.ViewRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2314,7 +2314,7 @@ public final class Api {
         return  me.Nikleo.dwj.map.proto.Api.internal_static_piratemap_ChangeRequest_fieldAccessorTable;
       }
       
-      // Construct using com.boombuler.piraten.map.proto.Api.ChangeRequest.newBuilder()
+      // Construct using me.Nikleo.dwj.map.proto.Api.ChangeRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2810,7 +2810,7 @@ public final class Api {
         return  me.Nikleo.dwj.map.proto.Api.internal_static_piratemap_DeleteRequest_fieldAccessorTable;
       }
       
-      // Construct using com.boombuler.piraten.map.proto.Api.DeleteRequest.newBuilder()
+      // Construct using me.Nikleo.dwj.map.proto.Api.DeleteRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -3318,7 +3318,7 @@ public final class Api {
         return  me.Nikleo.dwj.map.proto.Api.internal_static_piratemap_AddRequest_fieldAccessorTable;
       }
       
-      // Construct using com.boombuler.piraten.map.proto.Api.AddRequest.newBuilder()
+      // Construct using me.Nikleo.dwj.map.proto.Api.AddRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -4094,7 +4094,7 @@ public final class Api {
         return  me.Nikleo.dwj.map.proto.Api.internal_static_piratemap_Request_fieldAccessorTable;
       }
       
-      // Construct using com.boombuler.piraten.map.proto.Api.Request.newBuilder()
+      // Construct using me.Nikleo.dwj.map.proto.Api.Request.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -5437,7 +5437,7 @@ public final class Api {
         return  me.Nikleo.dwj.map.proto.Api.internal_static_piratemap_Response_fieldAccessorTable;
       }
       
-      // Construct using com.boombuler.piraten.map.proto.Api.Response.newBuilder()
+      // Construct using me.Nikleo.dwj.map.proto.Api.Response.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }

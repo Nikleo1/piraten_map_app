@@ -33,7 +33,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import com.boombuler.piraten.map.R;
+import me.Nikleo.dwj.map.R;
 import org.osmdroid.util.GeoPoint;
 
 public class SyncController implements Runnable {

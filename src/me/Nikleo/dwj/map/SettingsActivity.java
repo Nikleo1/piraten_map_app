@@ -16,7 +16,7 @@ import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.view.MenuItem;
 import android.widget.TextView;
-import com.boombuler.piraten.map.R;
+import me.Nikleo.dwj.map.R;
 
 import java.util.List;
 

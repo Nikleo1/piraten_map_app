@@ -22,7 +22,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.impl.conn.SingleClientConnManager;
 import org.apache.http.protocol.HttpContext;
 
-import com.boombuler.piraten.map.R;
+import me.Nikleo.dwj.map.R;
 
 import android.content.Context;
 import android.util.Log;

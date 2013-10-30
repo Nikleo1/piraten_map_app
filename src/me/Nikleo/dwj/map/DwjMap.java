@@ -15,7 +15,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-import com.boombuler.piraten.map.R;
+import me.Nikleo.dwj.map.R;
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;

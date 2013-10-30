@@ -29,7 +29,7 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 import android.widget.TextView;
-import com.boombuler.piraten.map.R;
+import me.Nikleo.dwj.map.R;
 
 public class PlakatDetailsActivity extends Activity 
 		implements OnClickListener {
@@ -115,8 +115,8 @@ public class PlakatDetailsActivity extends Activity
 	}
 	
 	
-	public static final String EXTRA_PLAKAT_ID = "com.boombuler.piraten.map.EXTRA_PLAKAT_ID";
-	public static final String EXTRA_NEW_PLAKAT = "com.boombuler.piraten.map.EXTRA_NEW_PLAKAT";
+	public static final String EXTRA_PLAKAT_ID = "me.Nikleo.dwj.map.EXTRA_PLAKAT_ID";
+	public static final String EXTRA_NEW_PLAKAT = "me.Nikleo.dwj.map.EXTRA_NEW_PLAKAT";
 	
 	private Button mSaveButton;
 	private MenuItem mSaveItem;

@@ -2,7 +2,7 @@ package me.Nikleo.dwj.map;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
-import com.boombuler.piraten.map.R;
+import me.Nikleo.dwj.map.R;
 import me.Nikleo.dwj.utils.JsonArray;
 import me.Nikleo.dwj.utils.JsonObject;
 import me.Nikleo.dwj.utils.MyHttpClient;
