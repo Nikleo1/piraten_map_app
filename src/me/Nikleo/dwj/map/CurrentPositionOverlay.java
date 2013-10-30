@@ -1,4 +1,4 @@
-package com.boombuler.piraten.map;
+package me.Nikleo.dwj.map;
 
 import android.content.Context;
 import org.osmdroid.views.MapView;

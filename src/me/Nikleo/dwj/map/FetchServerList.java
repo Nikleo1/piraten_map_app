@@ -1,11 +1,12 @@
-package com.boombuler.piraten.map;
+package me.Nikleo.dwj.map;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
-import com.boombuler.piraten.utils.JsonArray;
-import com.boombuler.piraten.utils.JsonObject;
-import com.boombuler.piraten.utils.MyHttpClient;
-import com.boombuler.piraten.utils.JsonParser;
+import com.boombuler.piraten.map.R;
+import me.Nikleo.dwj.utils.JsonArray;
+import me.Nikleo.dwj.utils.JsonObject;
+import me.Nikleo.dwj.utils.MyHttpClient;
+import me.Nikleo.dwj.utils.JsonParser;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.util.EntityUtils;

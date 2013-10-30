@@ -1,4 +1,4 @@
-package com.boombuler.piraten.map;
+package me.Nikleo.dwj.map;
 
 import java.util.List;
 
@@ -13,9 +13,9 @@ import org.osmdroid.views.overlay.ItemizedOverlay;
 public class PlakatOverlay extends ItemizedOverlay<PlakatOverlayItem> {
 
 	private List<PlakatOverlayItem> mItems;
-	private final PirateMap mContext;
+	private final DwjMap mContext;
 	
-	public PlakatOverlay(PirateMap context, List<PlakatOverlayItem> items) {
+	public PlakatOverlay(DwjMap context, List<PlakatOverlayItem> items) {
 		super(PlakatOverlayItem.getDefaultDrawable(), new DefaultResourceProxyImpl(context));
 		mContext = context;
 		if (items != null) {
@@ -40,7 +40,7 @@ public class PlakatOverlay extends ItemizedOverlay<PlakatOverlayItem> {
     	mContext.startActivityForResult(
     			new Intent(mContext, PlakatDetailsActivity.class)
     				.putExtra(PlakatDetailsActivity.EXTRA_PLAKAT_ID, item.getId()),
-    				PirateMap.REQUEST_EDIT_PLAKAT);
+    				DwjMap.REQUEST_EDIT_PLAKAT);
     	
     	return true;
     }

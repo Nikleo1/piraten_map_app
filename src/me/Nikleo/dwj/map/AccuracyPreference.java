@@ -1,4 +1,4 @@
-package com.boombuler.piraten.map;
+package me.Nikleo.dwj.map;
 
 import android.content.Context;
 import android.preference.DialogPreference;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import com.boombuler.piraten.map.R;
 
 public class AccuracyPreference extends DialogPreference implements
 		SeekBar.OnSeekBarChangeListener {

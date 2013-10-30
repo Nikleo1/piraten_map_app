@@ -1,4 +1,4 @@
-package com.boombuler.piraten.map;
+package me.Nikleo.dwj.map;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -16,6 +16,7 @@ import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.view.MenuItem;
 import android.widget.TextView;
+import com.boombuler.piraten.map.R;
 
 import java.util.List;
 

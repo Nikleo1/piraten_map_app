@@ -1,4 +1,4 @@
-package com.boombuler.piraten.map;
+package me.Nikleo.dwj.map;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -29,6 +29,7 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 import android.widget.TextView;
+import com.boombuler.piraten.map.R;
 
 public class PlakatDetailsActivity extends Activity 
 		implements OnClickListener {

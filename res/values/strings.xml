@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Piraten Karte</string>
+    <string name="app_name">DWJ Karte</string>
     <string name="sync_cleardata">Lösche alte Daten&#8230;</string>
     <string name="sync_loading">Lade Plakate&#8230;</string>
     <string name="sync_processing">Verabeite Daten&#8230;</string>
@@ -63,7 +63,7 @@
             <item>0</item>
         </string-array>
 
-        <string name="server_list_url">http://piratemap.github.io/servers.json</string>
+        <string name="server_list_url">http://1.1.1.8/pm/servers.json</string>
         <string name="fetching_server_list">Lade Serverliste</string>
         
         <string name="about_server">Server Info</string>

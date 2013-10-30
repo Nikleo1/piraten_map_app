@@ -1,4 +1,4 @@
-package com.boombuler.piraten.map;
+package me.Nikleo.dwj.map;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,15 +10,15 @@ import org.apache.http.entity.ByteArrayEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 
-import com.boombuler.piraten.map.proto.Api.AddRequest;
-import com.boombuler.piraten.map.proto.Api.BoundingBox;
-import com.boombuler.piraten.map.proto.Api.ChangeRequest;
-import com.boombuler.piraten.map.proto.Api.DeleteRequest;
-import com.boombuler.piraten.map.proto.Api.Plakat;
-import com.boombuler.piraten.map.proto.Api.Request;
-import com.boombuler.piraten.map.proto.Api.Response;
-import com.boombuler.piraten.map.proto.Api.ViewRequest;
-import com.boombuler.piraten.utils.MyHttpClient;
+import me.Nikleo.dwj.map.proto.Api.AddRequest;
+import me.Nikleo.dwj.map.proto.Api.BoundingBox;
+import me.Nikleo.dwj.map.proto.Api.ChangeRequest;
+import me.Nikleo.dwj.map.proto.Api.DeleteRequest;
+import me.Nikleo.dwj.map.proto.Api.Plakat;
+import me.Nikleo.dwj.map.proto.Api.Request;
+import me.Nikleo.dwj.map.proto.Api.Response;
+import me.Nikleo.dwj.map.proto.Api.ViewRequest;
+import me.Nikleo.dwj.utils.MyHttpClient;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -33,6 +33,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
+import com.boombuler.piraten.map.R;
 import org.osmdroid.util.GeoPoint;
 
 public class SyncController implements Runnable {
@@ -45,13 +46,13 @@ public class SyncController implements Runnable {
 	private final DefaultHttpClient mClient;
 	private final String mUsername;
 	private final String mPassword;
-	private final PirateMap mContext;
+	private final DwjMap mContext;
 	private ProgressDialog mProgress;
 	private Runnable mOnCompleteListener;
 	private Location mLocation = null;
 	private double mSyncRange = 0;
 	
-	public SyncController(PirateMap context) {
+	public SyncController(DwjMap context) {
 		mContext = context;
 		mClient = new MyHttpClient(context);
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);

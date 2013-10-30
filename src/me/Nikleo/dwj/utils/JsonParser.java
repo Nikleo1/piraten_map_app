@@ -1,4 +1,4 @@
-package com.boombuler.piraten.utils;
+package me.Nikleo.dwj.utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.boombuler.piraten.map;
+package me.Nikleo.dwj.map;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -238,7 +238,7 @@ public class DBAdapter {
 
 
 	public PlakatOverlay getMapOverlay() {
-		if (mContext instanceof PirateMap) {
+		if (mContext instanceof DwjMap) {
 			LinkedList<PlakatOverlayItem> items = new LinkedList<PlakatOverlayItem>();
 
 			Cursor crs = mDatabase.query(TABLE_PLAKATE, null, null, null, null,
@@ -256,7 +256,7 @@ public class DBAdapter {
 					crs.close();
 				}
 			}
-			return new PlakatOverlay((PirateMap) mContext, items);
+			return new PlakatOverlay((DwjMap) mContext, items);
 		} else
 			return null;
 	}

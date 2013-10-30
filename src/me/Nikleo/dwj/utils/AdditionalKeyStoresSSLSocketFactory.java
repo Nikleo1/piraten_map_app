@@ -1,4 +1,4 @@
-package com.boombuler.piraten.utils;
+package me.Nikleo.dwj.utils;
 
 import java.io.IOException;
 import java.net.Socket;

@@ -1,4 +1,4 @@
-package com.boombuler.piraten.map;
+package me.Nikleo.dwj.map;
 
 import java.util.List;
 
@@ -15,12 +15,13 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+import com.boombuler.piraten.map.R;
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;
 import org.osmdroid.views.overlay.Overlay;
 
-public class PirateMap extends Activity {
+public class DwjMap extends Activity {
 	private MapView mMapView;
 	private CurrentPositionOverlay mMyPosOverlay;
 	static int REQUEST_EDIT_PLAKAT = 1;
@@ -65,7 +66,7 @@ public class PirateMap extends Activity {
             	AddMarker();
 				return true;
             case R.id.menu_settings:
-            	startActivity(new Intent(PirateMap.this, SettingsActivity.class));
+            	startActivity(new Intent(DwjMap.this, SettingsActivity.class));
 				return true;
             case android.R.id.home:
             	if (mMapView != null && mMyPosOverlay != null) {
@@ -96,7 +97,7 @@ public class PirateMap extends Activity {
 		new Thread(new Runnable() {
 			
 			public void run() {
-				DBAdapter dba = new DBAdapter(PirateMap.this);
+				DBAdapter dba = new DBAdapter(DwjMap.this);
 				try {
 					dba.open();
 					overlays.add(dba.getMapOverlay());
@@ -112,7 +113,7 @@ public class PirateMap extends Activity {
 		    
 			mMyPosOverlay.runOnFirstFix(new Runnable() {
 	            public void run() {
-                PirateMap.this.runOnUiThread(new Runnable() {
+                DwjMap.this.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
                         if (mMapView.getZoomLevel() < INITIAL_ZOOM)
@@ -161,9 +162,9 @@ public class PirateMap extends Activity {
                     .show();
         } else {
             startActivityForResult(
-                    new Intent(PirateMap.this, PlakatDetailsActivity.class)
+                    new Intent(DwjMap.this, PlakatDetailsActivity.class)
                             .putExtra(PlakatDetailsActivity.EXTRA_NEW_PLAKAT, true),
-                    PirateMap.REQUEST_EDIT_PLAKAT);
+                    DwjMap.REQUEST_EDIT_PLAKAT);
         }
     }
     
@@ -172,7 +173,7 @@ public class PirateMap extends Activity {
         
         sc.setOnCompleteListener(new Runnable() {
             public void run() {
-                SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(PirateMap.this);
+                SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(DwjMap.this);
                 SharedPreferences.Editor editor = prefs.edit();
                 editor.putBoolean(SettingsActivity.KEY_HAS_SYNCED, true);
 
