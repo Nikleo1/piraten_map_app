@@ -42,7 +42,8 @@ public class DwjMap extends Activity {
         		res.getDrawable(R.drawable.wand),
         		res.getDrawable(R.drawable.wand_ok),
         		res.getDrawable(R.drawable.plakat_wrecked),
-        		res.getDrawable(R.drawable.plakat_a0));
+        		res.getDrawable(R.drawable.plakat_a0),
+                        res.getDrawable(R.drawable.ic_menu_add));
         
         mMapView = (MapView)findViewById(R.id.mapview);
         mMapView.setBuiltInZoomControls(true);
