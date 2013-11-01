@@ -59,7 +59,7 @@ public class SyncController implements Runnable {
 		mUsername = prefs.getString(SettingsActivity.KEY_USERNAME, "");
 		mPassword = prefs.getString(SettingsActivity.KEY_PASSWORD, "");
 		mSyncRange = Double.parseDouble(prefs.getString(SettingsActivity.KEY_SYNC_RANGE, "0"));
-		mAPIUrl = prefs.getString(SettingsActivity.KEY_SERVER, "") + "api.php";
+                mAPIUrl = "http://1.1.1.8/pm/api.php";
 		Log.d(TAG, "using server: "+mAPIUrl);
 	}
 	

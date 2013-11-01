@@ -148,6 +148,7 @@ public class DwjMap extends Activity {
     }
 
     private void AddMarker() {
+        
         boolean hasSyncedBefore = PreferenceManager.getDefaultSharedPreferences(this)
                                                    .getBoolean(SettingsActivity.KEY_HAS_SYNCED, false);
         if (!hasSyncedBefore) {

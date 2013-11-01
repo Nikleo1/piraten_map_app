@@ -2,13 +2,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/settings">
 	<PreferenceCategory android:title="@string/settings_logindata">
-		<ListPreference 
-		    android:key="sync_server"
-		    android:title="@string/setting_server"
-		    android:summary="@string/setting_server_summary"/>
-        <Preference android:key="about_server"
-            android:title="@string/about_server"
-            android:summary="@string/about_server_summary" />
 		<EditTextPreference android:key="username"
 			android:title="@string/settings_username" 
 			android:summary="@string/settings_username_summary" />
