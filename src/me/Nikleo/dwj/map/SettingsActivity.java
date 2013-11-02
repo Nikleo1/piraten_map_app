@@ -27,9 +27,11 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
 	public static final String KEY_ACCURACY = "accuracy";
 	public static final String KEY_SYNC_RANGE = "sync_range";
         public static final  String KEY_HAS_SYNCED = "has_synced_before";
-	
-
-    
+	public static final  String REG_USERNAME = "reg_username";
+        public static final  String REG_PW1 = "reg_pw1";
+        public static final  String REG_PW2 = "reg_pw2";
+        public static final  String REG_EMAIL = "reg_email";
+        public static final  String REG_SAFED = "reg_safed";
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

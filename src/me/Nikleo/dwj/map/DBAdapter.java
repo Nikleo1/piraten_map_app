@@ -89,26 +89,7 @@ public class DBAdapter {
         mDatabase.update(TABLE_SERVERS, cv, SERVERS_ID + "=?", new String[]{id});
     }
 
-    public  List<ServerInfo> GetServers(boolean withDevServers) {
-        LinkedList<ServerInfo> items = new LinkedList<ServerInfo>();
 
-        Cursor crs = mDatabase.query(TABLE_SERVERS, null, null, null, null, null, null);
-        if (crs != null) {
-            try {
-                if (crs.moveToFirst()) {
-                    while (!crs.isAfterLast()) {
-                        ServerInfo server = new ServerInfo(crs);
-                        if (withDevServers || !server.isDevServer())
-                            items.add(server);
-                        crs.moveToNext();
-                    }
-                }
-            } finally {
-                crs.close();
-            }
-        }
-        return items;
-    }
 
 	public void InsertNew(int lat, int lon, int type, String comment) {
 		int newId = getNextId();

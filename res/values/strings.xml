@@ -60,12 +60,19 @@
             <item>200000</item>
             <item>0</item>
         </string-array>
-
-        <string name="server_list_url">http://1.1.1.8/pm/servers.json</string>
-        <string name="fetching_server_list">Lade Serverliste</string>
         
         <string name="alert_error">Fehler</string>
         <string name="error_sync_failed">Datenabgleich fehlgeschlagen ! Bitte Benutzernamen und Passwort prüfen</string>
 
         <string name="warn_sync_first">Synchronisieren sie die Daten bevor Sie ein Punkt hinzufügen.</string>
+        
+        <string name="register_passwordwd">Passwort wiederholen</string>
+        <string name="register_mail">Email Adresse</string>
+        <string name="register">Registrieren</string>
+        
+        <string name="welkome">Wilkommen</string>
+        <string name="welkome_message">Hallo und vielen Dank dass du diese App benutzt :) Bitte melde dich an oder registriere dich um Punkte syncronisieren zu können </string>
+        <string name="welkome_login">Anmelden</string>
+        <string name="welkome_register">Registrieren</string>
+
 </resources>

@@ -2,6 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/settings">
 	<PreferenceCategory android:title="@string/settings_logindata">
+            <Preference android:layout="@layout/registerbuttons" android:key="registerbuton"></Preference>
 		<EditTextPreference android:key="username"
 			android:title="@string/settings_username" 
 			android:summary="@string/settings_username_summary" />
